@@ -3,20 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://kit.fontawesome.com/0337096dce.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="center">
-    <p>Onix Sales Territories</p><br><br>
-  </div>
   <div id="svg">
 
     <div class="Onix-Logo.svg"></div>
@@ -41,188 +38,251 @@
       </g>
     </svg>
   </div>
-  <div id="map"></div>
-  <div class="content">
-    <div id="jquery-accordion-menu" class="jquery-accordion-menu red">
-      <div class="jquery-accordion-menu-header" id="form"></div>
-      <ul id="demo-list">
-        <li class="active"><a href="#"><i class="fab fa-salesforce"></i>Salesforce Links </a></li>
-        <li><a href="#"><i class="fab fa-chrome"></i>Chrome </a>
-          <ul class="submenu">
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AYZtIIAX/view"
-                target="_blank">Josh
-                Ramsey</a></li></br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHRE8IAP/view"
-                target="_blank">Kurt
-                Freeman</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UqxIAF/view"
-                target="_blank">Tim
-                Lewis</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC00000073e7bMAA/view"
-                target="_blank">Chrome
-                Business YTD</a></li><br><br>
 
-          </ul>
-        </li>
-
-        <li><a href="#"><i class="fas fa-database"></i>GCP </a>
-          <ul class="submenu">
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH7tQIAT/view">Albert Valdez
-              </a></li>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH7tVIAT/view">Elise Mulder </a>
-            </li>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UNvIAN/view"
-                target="_blank">Gabe
-                Zuniga</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000At8sYIAR/view"
-                target="_blank">Joe
-                DeMaria</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000At8sdIAB/view"
-                target="_blank">Joe
-                Langley</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH8huIAD/view"
-                target="_blank">Leo
-                Hart</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UOKIA3/view"
-                target="_blank">Mathew
-                Iglehart</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/Contact/003C000001oAGgSIAW/view"
-                target="_blank">Quirino Capintog</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZbBlMAK/view"
-                target="_blank">GCP
-                Pipeline for qtr</a></li><br><br>
-          </ul>
-        </li>
-
-
-        <li><a href="#"><i class="fab fa-google-plus-g"></i>G Suite </a>
-          <ul class="submenu">
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005u6JvIAI/view"
-                target="_blank">Alex
-                Kwiatkowski</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0058000000377WPAAY/view"
-                target="_blank">Brian
-                Mansell</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000003mY9CIAU/view"
-                target="_blank">George
-                Shihedah</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4EARIA3/view"
-                target="_blank">Hala
-                Al-Saeed</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005tWGbIAM/view"
-                target="_blank">James
-                Seiler</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005800000038CNUAA2/view"
-                target="_blank">John
-                Shihedah</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHoTQIA1/view"
-                target="_blank">Kenny
-                Shaw</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/00580000003d1eTAAQ/view"
-                target="_blank">Paul
-                Campbell</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000A0YUtIAN/view"
-                target="_blank">Pete
-                Luci</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZaWTMA0/view"
-                target="_blank">GCP
-                Pipeline</a></li>
-          </ul>
-        </li>
-
-        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Maps</a>
-          <ul class="submenu">
-            <li><a style="color: rgb(127, 228, 228)" a
-                href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B7wBUIAZ/view"
-                target="_blank">Charlie
-                Hardage</a></li><br><br>
-            <li><a style="color: #fd1b14" a
-                href="https://onixnet.lightning.force.com/lightning/r/User/005C0000009kManIAE/view" target="_blank">Dan
-                Stephens</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C00000048qQbIAI/view"
-                target="_blank">Derek
-                Imes</a></li><br><br>
-            <li><a style="color: rgb(68, 68, 68)" a
-                href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AGyupIAD/view" target="_blank">Phil
-                Stephens</a></li><br><br>
-            <li><a style="color: #395964" a
-                href="https://onixnet.lightning.force.com/lightning/r/User/005C00000048lReIAI/view" target="_blank">Zack
-                Schreiber</a></li><br><br>
-            <li><a
-                href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZMmhMAG/view?queryScope=userFolders"
-                target="_blank">All Geo Pipeline</a></li>
-          </ul>
-        </li>
-
-        <li><a href="#"><i class="fas fa-search"></i>Search</a>
-          <ul class="submenu">
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000007vnIAIAY/view"
-                target="_blank">Daisy
-                Urfer</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000008cZcDIAU/view"
-                target="_blank">Dale
-                Cotton</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0058000000377VlAAI/view"
-                target="_blank">David
-                Bryson</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000008cZcIIAU/view"
-                target="_blank">Jared
-                Ramirez</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000452ZnIAI/view"
-                target="_blank">Jim
-                Gee</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005800000036cBDAAY/view"
-                target="_blank">Keith
-                Karaba</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005qT2YIAU/view"
-                target="_blank">Ryan
-                Donnelly</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AuzI0IAJ/view"
-                target="_blank">Tina
-                Shihedah</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005800000036cBNAAY/view"
-                target="_blank">Tim
-                Hunt</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4VoTIAV/view"
-                target="_blank">Trevor
-                Cannon</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHaKyIAL/view"
-                target="_blank">Tyler
-                Hand</a></li><br><br>
-            <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC00000064BRoMAM/view"
-                target="_blank">Current
-                qtr Search Pipeline</a></li>
-          </ul>
-        </li>
-      </ul>
+  <div class="center">
+    <h1>Select a Team to Display Their Territory Map</h1>
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      <a href="#" class="show-hide">Chrome</a>
+      <div class="map">
+        <div id='map_chrome'></div>
+      </div>
     </div>
-    
-    <fieldset id="form">
-      <h3>
-        <input class="checkbox" id="Chrome" name="Chrome" type="checkbox" value="Chrome" />
-        <label for="Chrome">Chrome</label>
-      </h3>
-      <h3>
-        <input class="checkbox" id="gcp" name="GCP" type="checkbox" value="GCP" />
-        <label for="GCP">GCP</label>
-      </h3>
-      <h3>
-        <input class="checkbox" id="gsuite" name="G Suite" type="checkbox" value="GSuite" />
-        <label for="GSuite">G Suite</label>
-      </h3>
-      <h3>
-        <input class="checkbox" id="maps" name="Maps" type="checkbox" value="Maps" />
-        <label for="Maps">Maps</label>
-      </h3>
-      <h3>
-        <input class="checkbox" id="search" name="Search" type="checkbox" value="Search" onclick="Search" />
-        <label for="Search">Search</label>
-      </h3>
-    </fieldset>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <div class="row">
+      <a href="#" class="show-hide">GCP</a>
+      <div class="map">
+        <div id='map_gcp'></div>
+      </div>
+    </div>
+    <div class="row">
+      <a href="#" class="show-hide">G Suite</a>
+      <div class="map">
+        <div id='map_gsuite'></div>
+      </div>
+    </div>
+    <div class="row">
+      <a href="#" class="show-hide">Maps</a>
+      <div class="map">
+        <div id='map_maps'></div>
+      </div>
+    </div>
+    <div class="row">
+      <a href="#" class="show-hide">Search</a>
+      <div class="map">
+        <div id='map_search'></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="select-container">
+    <div class="content">
+      <div id="jquery-accordion-menu" class="jquery-accordion-menu red">
+        <div class="jquery-accordion-menu-header" id="form"></div>
+        <ul id="demo-list">
+          <li class="active"><a href="#"><i class="fab fa-salesforce"></i>Salesforce Links and color legend </a></li>
+          <li><a href="#"><i class="fab fa-chrome"></i>Chrome </a>
+            <ul class="submenu">
+              <li><a style="color: #006BB8" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AYZtIIAX/view"
+                  target="_blank">Josh
+                  Ramsey</a></li></br><br>
+              <li><a style="color: rgb(156, 209, 65)" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHRE8IAP/view"
+                  target="_blank">Kurt
+                  Freeman</a></li><br><br>
+              <li><a style="color: #BEA6A0" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UqxIAF/view"
+                  target="_blank">Tim
+                  Lewis</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC00000073e7bMAA/view"
+                  target="_blank">Chrome
+                  Business YTD</a></li><br><br>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-database"></i>GCP </a>
+            <ul class="submenu">
+              <li><a style="color: #fd1b14" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH7tQIAT/view">Albert Valdez
+                </a></li>
+              <li><a style="color: #ff8080" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH7tVIAT/view">Elise Mulder </a>
+              </li>
+              <li><a style="color: #21373f" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UNvIAN/view"
+                  target="_blank">Gabe
+                  Zuniga</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0053c00000BQaa8AAD/view"
+                  target="_blank">Hugo Reinoso</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0053c00000BQpILAA1/view"
+                  target="_blank">Jeff Coffman (HLS)</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHaL8IAL/view"
+                  target="_blank">Jim Coyne (HLS)</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0053c00000BQrlkAAD/view"
+                  target="_blank">Joanne Rainbow</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000At8sYIAR/view"
+                  target="_blank">Joe
+                  DiMaria</a></li><br><br>
+              <li><a style="color: #000066" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000At8sdIAB/view"
+                  target="_blank">Joe
+                  Langley</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000BH8huIAD/view"
+                  target="_blank">Leo
+                  Hart</a></li><br><br>
+
+              <li><a style="color: #cc9900" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4UOKIA3/view"
+                  target="_blank">Mathew
+                  Iglehart</a style="color: #cc9900" a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00O3c000007FuCjEAK/view"
+                  target="_blank">Peter Sansone</a></li><br><br>
+              <li><a style="color: #66ff66" a
+                  href="https://onixnet.lightning.force.com/lightning/r/Contact/003C000001oAGgSIAW/view"
+                  target="_blank">Quirino Capintog</a></li><br><br>
+              <li><a style="color: #996633" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AzTMcIAN/view"
+                  target="_blank">Tom Dybicz</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZbBlMAK/view"
+                  target="_blank">GCP
+                  Pipeline for qtr</a></li><br><br>
+            </ul>
+          </li>
+
+
+          <li><a href="#"><i class="fab fa-google-plus-g"></i>G Suite </a>
+            <ul class="submenu">
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005u6JvIAI/view"
+                  target="_blank">Alex
+                  Kwiatkowski</a></li><br><br>
+              <li><a style="color: #993366" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/0058000000377WPAAY/view"
+                  target="_blank">Brian
+                  Mansell</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000003mY9CIAU/view"
+                  target="_blank">George
+                  Shihedah</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AAsw9IAD/view"
+                  target="_blank">Greg Allan</a></li><br><br>
+              <li><a style="color: #cc00cc" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4EARIA3/view"
+                  target="_blank">Hala
+                  Al-Saeed</a></li><br><br>
+              <li><a style="color: #66ffff" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005tWGbIAM/view"
+                  target="_blank">James
+                  Seiler</a></li><br><br>
+              <li><a style=" color: #00cc00" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/0053c00000BQaQrAAL/view"
+                  target="_blank">Joe Spivey</a></li><br><br>
+              <li><a style="color: #000066" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005800000038CNUAA2/view"
+                  target="_blank">John
+                  Shihedah</a></li><br><br>
+              <li><a style="color: #0000ff"
+                  ahref="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHoTQIA1/view"
+                  target="_blank">Kenny
+                  Shaw</a></li><br><br>
+              <li><a style="color: #cc0000" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/00580000003d1eTAAQ/view"
+                  target="_blank">Paul
+                  Campbell</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000A0YUtIAN/view"
+                  target="_blank">Pete
+                  Luci</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZaWTMA0/view"
+                  target="_blank">GCP
+                  Pipeline</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i>Maps</a>
+            <ul class="submenu">
+              <li><a style="color: rgb(127, 228, 228)" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B7wBUIAZ/view"
+                  target="_blank">Charlie
+                  Hardage</a></li><br><br>
+              <li><a style="color: #fd1b14" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C0000009kManIAE/view"
+                  target="_blank">Dan
+                  Stephens</a></li><br><br>
+
+              <li><a style="color: #055069" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AGyupIAD/view"
+                  target="_blank">Phil
+                  Stephens</a></li><br><br>
+              <li><a style="color: #696e70" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C00000048lReIAI/view"
+                  target="_blank">Zack
+                  Schreiber</a></li><br><br>
+              <li><a
+                  href="https://onixnet.lightning.force.com/lightning/r/Report/00OC0000004ZMmhMAG/view?queryScope=userFolders"
+                  target="_blank">All Geo Pipeline</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-search"></i>Search</a>
+            <ul class="submenu">
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000007vnIAIAY/view"
+                  target="_blank">Daisy
+                  Urfer</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000008cZcDIAU/view"
+                  target="_blank">Dale
+                  Cotton</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/0058000000377VlAAI/view"
+                  target="_blank">David
+                  Bryson</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C0000008cZcIIAU/view"
+                  target="_blank">Jared
+                  Ramirez</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000452ZnIAI/view"
+                  target="_blank">Jim
+                  Gee</a></li><br><br>
+              <li><a style="color: #cccc00" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005800000036cBDAAY/view"
+                  target="_blank">Keith
+                  Karaba</a></li><br><br>
+              <li><a style="color: #504351" a style="color: #345080" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C0000005qT2YIAU/view"
+                  target="_blank">Ryan
+                  Donnelly</a></li><br><br>
+              <li><a style="color: #008099" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AuzI0IAJ/view"
+                  target="_blank">Tina
+                  Shihedah</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005800000036cBNAAY/view"
+                  target="_blank">Tim
+                  Hunt</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/User/005C000000B4VoTIAV/view"
+                  target="_blank">Trevor
+                  Cannon</a></li><br><br>
+              <li><a style="color: #FD1B14" a
+                  href="https://onixnet.lightning.force.com/lightning/r/User/005C000000AHaKyIAL/view"
+                  target="_blank">Tyler
+                  Hand</a></li><br><br>
+              <li><a href="https://onixnet.lightning.force.com/lightning/r/Report/00OC00000064BRoMAM/view"
+                  target="_blank">Current
+                  qtr Search Pipeline</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="./script.js"></script>
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4cLU9BSbb7ljuOv-TN8x61BtfHtdngEs&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsiAYBYa0EyqNZadx3OXXorQbTQvIDrQI&callback=initMap">
     </script>
-    <script src="./script.js"></script>
-  </body>
+    
+</body>
+
 </html>
