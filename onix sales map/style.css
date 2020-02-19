@@ -1,16 +1,50 @@
-#map {
-  width: 90%;
+#map_chrome {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 120px;
+  left: 350px;
+}
+#map_gcp {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 120px;
+  left: 350px;
+  display: justify;
+}
+#map_gsuite {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 120px;
+  left: 350px;
+}
+#map_maps {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 120px;
+  left: 350px;
+}
+#map_search {
+  width: 80%;
   position: absolute;
   bottom: 10px;
   top: 100px;
   left: 350px;
 }
-
+#map {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 120px;
+  left: 350px;
+}
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 5px;
+  margin: 10px;
   font-family: Oswald;
   background-image: url("https://raw.githubusercontent.com/brittanyyee/territories/master/onix%20sales%20map/onixheader2.jpg");
   color: white;
@@ -47,8 +81,8 @@ body {
 
 .content {
   width: 260px;
-  margin-left: 20px;
-  margin-top: 27px;
+  margin-left: 2px;
+  margin-top: 80px;
   margin-bottom: 10px;
 }
 
@@ -68,9 +102,10 @@ body {
 
 .jquery-accordion-menu {
   min-width: 260px;
+  margin-top: 7px;
   float: left;
   position: relative;
-  box-shadow: 0 30px 60px #000;
+  box-shadow: 5 30px 60px #000;
 }
 
 
@@ -160,15 +195,15 @@ body {
 }
 
 .jquery-accordion-menu ul ul.submenu>li>a {
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .jquery-accordion-menu ul ul.submenu>li>ul.submenu>li>a {
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .jquery-accordion-menu ul ul.submenu>li>ul.submenu>li>ul.submenu>li>a {
-  padding-left: 6px;
+  padding-left: 0px;
 }
 
 .jquery-accordion-menu ul li .jquery-accordion-menu-label,
@@ -243,19 +278,21 @@ a {
 
 .center {
   position: absolute;
+  display: center;
   width: 700px;
   height: 63px;
-  border: 4px solid #fff;
-  right: 400px;
-  padding: 0px;
-  font-size: 26px;
+  right: 500px;
+  top: 3px;
+  bottom: 5px;
+  padding: 5px;
+  font-size: 20px;
   background: none;
   color: #fff;
-  text-shadow: 3px 2px black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 15px darkblue;
 }
 p {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   font-family: Oswald;
   color: #fff;
   margin-top: 5px;
@@ -270,18 +307,18 @@ h3 {
 }
 
 #svg {
-  height: 70px;
-  width: 200px;
+  height: 150px;
+  width: 180px;
   padding-right: 3px;
   background: none;
-  margin: 10px 600px 5px 0px;
+  margin: 3px 60px 5px 0px;
 }
 
 .Onix-Logo {
   position: relative;
   margin: auto;
   padding: 0px;
-  margin: 10px 600px 5px 0px;
+  margin: 10px 60px 5px 0px;
   background: none;
 }
 
@@ -301,4 +338,33 @@ h3 {
   color: #fff;
   margin-top: 100px;
   padding: 10px;
+}
+a {
+  font-family: Oswald;
+  font-size: 16px;
+  display: block;
+  color: white;
+  background: none;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a.show-hide {
+  
+  font-family: Oswald;
+  font-size: 18px;
+  width: 25%;
+  display: block;
+  color: white;
+  margin-top: 5px;
+  background: none;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.select-container h1 {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.row {
+  margin-top: 5px;
 }
